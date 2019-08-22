@@ -23,7 +23,7 @@ const EDIT_PROFILE = "/:id/edit-profile";
 // Songs
 
 const SONGS = "/songs";
-const SEARCH_SONG = "/search-song";
+const SEARCH_SONG = "/search";
 const DELETE_SONG = "/:id/delete";
 
 const routes = {
