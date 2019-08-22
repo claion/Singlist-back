@@ -3,7 +3,7 @@ export const searchSong = (req, res) => {
   const {
     query: { term: searchingBy }
   } = req;
-  return res.send("search");
+  return res.send(searchingBy);
 };
 
 export const deleteSong = (req, res) => {
